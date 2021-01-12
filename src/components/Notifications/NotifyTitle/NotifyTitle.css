@@ -1,0 +1,27 @@
+.notify-toggle {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid #e3ebf6;
+}
+
+.active-notify {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #272d67;
+  cursor: pointer;
+}
+
+.disabled-notify {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #91a0c9;
+  cursor: pointer;
+}
+
+.right {
+  margin-right: 200px;
+}

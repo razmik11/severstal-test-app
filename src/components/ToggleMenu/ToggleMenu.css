@@ -1,0 +1,47 @@
+.toggle-menu {
+  width: 300px;
+  padding-top: 20px;
+}
+
+.toggle-item,
+.disabled-item {
+  display: flex;
+  align-items: center;
+  width: 268px;
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+.toggle-item img,
+.disabled-item img {
+  margin-left: 35px;
+}
+
+.toggle-item span {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.disabled-item span {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 35px;
+  color: #91a0c9;
+}
+
+.disabled-item {
+  background: #ffffff;
+}
+
+.notify {
+  background-color: #eef1fa;
+}
+
+.notify span {
+  color: #272d67;
+}

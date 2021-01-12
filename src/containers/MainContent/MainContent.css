@@ -1,0 +1,7 @@
+.main-content {
+  background-color: #F7F9FF;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+}

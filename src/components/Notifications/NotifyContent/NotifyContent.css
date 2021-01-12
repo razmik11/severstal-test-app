@@ -1,0 +1,250 @@
+.notify-content-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #5285ff;
+  margin: 30px 0 5px 33px;
+}
+
+.title-input-form, 
+.text-input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-input-form label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #676daa;
+  margin: 30px 0 0 33px;
+}
+
+.title-input-form input {
+  height: 55px;
+  width: 685px;
+  border: 1px solid #97a7cf;
+  padding-left: 20px;
+  border-radius: 5px;
+  margin-left: 33px;
+  outline: none;
+
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #91a0c9;
+}
+
+.title-input-form input::placeholder {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #91a0c9;
+}
+
+.clear-title-icon {
+  position: relative;
+  right: 55px;
+  top: 23px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.text-input-form label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #676daa;
+  margin: 30px 0 20px 33px;
+}
+
+.text-input-form textarea {
+  height: 87px;
+  width: 685px;
+  border: 1px solid #97a7cf;
+  border-radius: 5px;
+  padding: 20px 0 0 20px;
+  margin-left: 33px;
+  margin-bottom: 30px;
+  outline: none;
+  resize: none;
+
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #91a0c9;
+}
+
+.text-input-form textarea::placeholder {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #91a0c9;
+}
+
+.clear-text-icon {
+  position: relative;
+  right: 55px;
+  bottom: 80px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.img-input-form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 33px;
+  margin-bottom: 20px;
+}
+
+.img-input-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-input-div {
+  width: 527px;
+  height: 55px;
+}
+
+.img-input-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #676daa;
+  margin-bottom: 20px;
+}
+
+.img-input-form input {
+  height: 55px;
+  width: 503px;
+  padding-left: 20px;
+  border: 1px solid #97a7cf;
+  border-radius: 5px;
+  outline: none;
+
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #91a0c9;
+}
+
+.img-input-form input::placeholder {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #91a0c9;
+}
+
+.photo-input {
+  position: relative;
+  z-index: 10;
+}
+
+.photo-button input[type='file'] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  position: absolute;
+  z-index: -10;
+}
+
+.photo-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 21px;
+  height: 59px;
+  width: 157px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #91a0c9;
+  background-image: url('../../UI/Files/image-arrow.svg') no-repeat;
+}
+
+.img-button-icon {
+  margin-right: 15px;
+}
+
+.photo-button label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.clear-img-icon {
+  position: relative;
+  bottom: 59px;
+  left: 470px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.phone-preview {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #676daa;
+  margin-left: 33px;
+}
+
+.phone-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.phone-pic {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  width: 415px;
+  height: 174.5px;
+  background: url('../../UI/Files/phone.svg') no-repeat;
+  margin: 20px 0 0 33px;
+}
+
+.phone-title {
+  padding-top: 80px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #676daa;
+}
+
+.phone-notify {
+  padding-top: 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #272d67;
+}
+
+.send-btn {
+  height: 55px;
+  width: 211px;
+  margin-left: 13px;
+  background: #5285ff;
+  align-self: flex-end;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.send-btn span {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}

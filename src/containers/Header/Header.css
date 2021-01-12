@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+header span {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #272D67;
+}
+
+header .profile {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  padding-right: 35px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+header .profile :first-child {
+  margin-right: 15px;
+  align-self: center;
+}
+
+header .profile .profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url('../../components/UI/Files/profile-pic.jpg');
+  background-size: auto 50px;
+  margin-right: 15px;
+}
+
+header .profile .profile-arrow {
+  align-self: center;
+}
